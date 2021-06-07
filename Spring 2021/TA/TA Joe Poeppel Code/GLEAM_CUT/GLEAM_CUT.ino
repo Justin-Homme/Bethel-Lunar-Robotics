@@ -1,9 +1,9 @@
-  /*                                                                                          s  |
+/* DO NOT DELETE - PLEASE CONTACT JOE POEPPEL WITH ANY QUESTIONS                                |                                                                                     s  |
  * University of Minnesota - Twin Cities                                                        |
  * AEM 4490 - Introduction to Aerospace Topics                                                  |
- * GLEAM Project - Central Unit Transmitter                                                      |
+ * GLEAM Project - Central Unit Transmitter                                                     |
  * Author: Joe Poeppel - poepp027@umn.edu                                                       |
- * Date: 3/18/2021                                                                              |
+ * Date: 5/7/2021                                                                              |
  *                                                                                              | 
  * XBee Series 3 Mesh Network: Central Unit Transmitter for GLEAM Project                       |
  * This software is to be placed on the ground unit transmitter that is to send a request       |
@@ -12,7 +12,7 @@
  * Teensy 3.5 and Teensyduino.                                                                  |
  ----------------------------------------------------------------------------------------------*/
 
-#include <XBeeAPI.h> // This must be the "xbee-arduino-master" library; may need to remove "XBee-master" library from libraries folder in order for Arduino to see the "xbee-arduino-master" library
+#include <XBeeAPI.h> // This must be the "xbee-arduino-master" library; May need to contact Joe Poeppel to get this library as it has been altered from what can be downloaded online.
 
 XBee xBee = XBee(); // Creating xBee object
 uint8_t payload[] = {0};// Allocating memory

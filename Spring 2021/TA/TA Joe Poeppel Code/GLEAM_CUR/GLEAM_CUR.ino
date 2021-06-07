@@ -1,14 +1,16 @@
-/*                                                                                              |
+/* DO NOT DELETE - PLEASE CONTACT JOE POEPPEL WITH ANY QUESTIONS                                |                                                                                              
  * University of Minnesota - Twin Cities                                                        |
  * AEM 4490 - Introduction to Aerospace Topics                                                  |
  * GLEAM Project - Central Unit Reciever                                                        |
  * Author: Joe Poeppel - poepp027@umn.edu                                                       |
- * Date: 3/20/2021                                                                              |
+ * Date: 5/7/2021                                                                              |
  *                                                                                              | 
  * XBee Series 3 Mesh Network: Central Unit Receiver for GLEAM Project                          |
  * This software is to be placed on the ground unit receiver that is to receiver data from the  |
  * measurement devices, recieve a parse request from the Central Unit Transmitter (CUT), parse  |
  * the data, and log the data to an SD card. Designed for a Teensy 3.5 and Teensyduino.         |
+ * Data parsing efficiency can be greatly increased with different methods. This method used    |
+ * for educational purpose.                                                                     |
  ----------------------------------------------------------------------------------------------*/
 
 #include <XBee.h>                                       // This must be the "XBee-master" library

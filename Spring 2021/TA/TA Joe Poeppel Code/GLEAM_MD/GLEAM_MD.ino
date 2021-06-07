@@ -1,9 +1,9 @@
-/*                                                                                              |
+/* DO NOT DELETE - PLEASE CONTACT JOE POEPPEL WITH ANY QUESTIONS                                |
  * University of Minnesota - Twin Cities                                                        |
  * AEM 4490 - Introduction to Aerospace Topics                                                  |
  * GLEAM Project - Measurement Device                                                           |
  * Author: Joe Poeppel - poepp027@umn.edu                                                       |
- * Date: 3/20/2021                                                                              |
+ * Date: 5/7/2021                                                                              |
  *                                                                                              | 
  * XBee Series 3 Mesh Network: Measurement Device for GLEAM Project                             |
  * This software is to be placed on the measurement units that are to collect data, log         |
